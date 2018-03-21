@@ -15,7 +15,7 @@ class Artist
     new_song
   end
 
-  def songs
+  # def songs
 
   def self.song_count
     @songs.size

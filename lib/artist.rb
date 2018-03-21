@@ -9,6 +9,6 @@ class Artist
     new_song = self.new
     new_song.name = name
     @songs << name
-    
+    new_song
   end
 end

@@ -7,6 +7,10 @@ class Artist
     @songs = []
   end
 
+  def add_song
+
+  end
+
   def add_song_by_name(name)
     new_song = self.new
     new_song.name = name

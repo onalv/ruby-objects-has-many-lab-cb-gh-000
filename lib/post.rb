@@ -5,7 +5,7 @@ class Post
     @title = title
   end
 
-  def author_title
-    self.author.title ? self.author.title : nil
+  def author_name
+    self.author.name ? self.author.name : nil
   end
 end

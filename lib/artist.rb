@@ -11,4 +11,8 @@ class Artist
     @songs << name
     new_song
   end
+
+  def self.song_count
+    @songs.size
+  end
 end

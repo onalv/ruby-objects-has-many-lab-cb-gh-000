@@ -10,6 +10,7 @@ class Artist
     new_song = self.new
     new_song.name = name
     @songs << name
+    @@song_count += 1
     new_song
   end
 
